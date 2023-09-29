@@ -13,7 +13,7 @@ export default function App(props) {
     <View style={styles.firstSection}>
     <Image 
     source={{
-        uri: 'https://cdn.pixabay.com/photo/2018/04/24/19/14/hai-3347787_1280.jpg',
+        uri: 'https://subir-imagen.com/images/2023/09/28/WhatsApp-Image-2023-09-28-at-15.13.28.jpeg',
     }}
     style={{ width:"100%", height:"100%", resizeMode: "cover"}}
     />
@@ -28,7 +28,7 @@ export default function App(props) {
     <Text style={styles.label}>Correo Electronico</Text>
     <TextInput
     style={styles.textInput}
-    underlineColorAndroid="#2E4560"
+    underlineColorAndroid="#A03636"
     placeholder="ejemplo@ejemplo.com"
     keyboardType='email-address'
   />
@@ -38,7 +38,7 @@ export default function App(props) {
 <Text style={styles.label}>Contraseña</Text>
     <TextInput
     style={styles.textInput}
-    underlineColorAndroid="#2E4560"
+    underlineColorAndroid="#A03636"
     placeholder="**********"
     secureTextEntry={true}
     />
@@ -110,7 +110,7 @@ forgotPassword: {
   textAlign: "right"
 },
 button: {
-  backgroundColor: "#2E4560",
+  backgroundColor: "#A03636",
   padding: 15,
   borderRadius:20,
   alignItems:"center"

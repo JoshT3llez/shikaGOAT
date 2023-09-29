@@ -12,7 +12,7 @@ export default function Register(props) {
     <View style={styles.firstSection}>
     <Image 
     source={{
-        uri: 'https://media.istockphoto.com/id/1358340309/es/foto/gran-tibur%C3%B3n-blanco-nadando-r%C3%A1pido.webp?b=1&s=612x612&w=0&k=20&c=oDlDujpyk_NTumXoNzCT0Mjpl1pRnBxlCZA8mJXZ-zE=',
+        uri: 'https://th.bing.com/th/id/R.ce9fdc29d5ec691a0301d90fdbaba7e7?rik=pU3GBRG%2bg3eShg&pid=ImgRaw&r=0',
     }}
     style={{ width:"100%", height:"100%", resizeMode: "cover"}}
     />
@@ -29,7 +29,7 @@ export default function Register(props) {
     <Text style={styles.label}>Nombre de usuario</Text>
     <TextInput
     style={styles.textInput}
-    underlineColorAndroid="#2E4560"
+    underlineColorAndroid="#A03636"
 
   />
       </View>
@@ -38,7 +38,7 @@ export default function Register(props) {
     <Text style={styles.label}>Correo Electronico</Text>
     <TextInput
     style={styles.textInput}
-    underlineColorAndroid="#2E4560"
+    underlineColorAndroid="#A03636"
     placeholder="ejemplo@ejemplo.com"
     keyboardType='email-address'
   />
@@ -48,7 +48,7 @@ export default function Register(props) {
 <Text style={styles.label}>Contraseña</Text>
     <TextInput
     style={styles.textInput}
-    underlineColorAndroid="#2E4560"
+    underlineColorAndroid="#A03636"
     placeholder="**********"
     secureTextEntry={true}
     />
@@ -116,7 +116,7 @@ forgotPassword: {
   textAlign: "right"
 },
 button: {
-  backgroundColor: "#2E4560",
+  backgroundColor: "#A03636",
   padding: 15,
   borderRadius:20,
   alignItems:"center"
@@ -137,7 +137,7 @@ row:{
 },
 
 signup:{
-  color:"2E4560",
+  color:"A03636",
   paddingLeft: 5,
 }
 });
